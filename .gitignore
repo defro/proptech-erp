@@ -1,2 +1,7 @@
+# Phalcon
 /cache/
 /config/development/
+
+# IDE
+/.idea/
+
