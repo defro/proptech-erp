@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  app:
+    container_name: phalcon_app
+    image: mileschou/phalcon:7.4-apache
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+    depends_on:
+      - mysql
+    links:
+      - mysql
+    ports:
+      - '8080:80'
+
+  mysql:
+    container_name: mysql
+    image: mysql:8
+    environment:
+      MYSQL_DATABASE: phalcon_app
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - '3806:3306'
