@@ -3,7 +3,7 @@ version: '3'
 services:
   app:
     container_name: phalcon_app
-    image: mileschou/phalcon:7.4-apache
+    build: .
     working_dir: /var/www/html
     volumes:
       - ./:/var/www/html
