@@ -1,0 +1,17 @@
+{
+    "name": "jgaujard/proptech-erp",
+    "description": "A technical test",
+    "type": "project",
+    "require": {
+        "phalcon/devtools": "^2.0",
+        "robmorgan/phinx": "^0.12.10"
+    },
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Joël Gaujard",
+            "email": "j.gaujard@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
