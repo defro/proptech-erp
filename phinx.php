@@ -20,10 +20,10 @@ return
         ],
         'development' => [
             'adapter' => 'mysql',
-            'host' => 'localhost',
-            'name' => 'development_db',
+            'host' => 'mysql',
+            'name' => 'phalcon_app',
             'user' => 'root',
-            'pass' => '',
+            'pass' => 'root',
             'port' => '3306',
             'charset' => 'utf8',
         ],
