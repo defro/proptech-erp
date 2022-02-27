@@ -3,8 +3,8 @@
     "description": "A technical test",
     "type": "project",
     "require": {
-        "phalcon/devtools": "^2.0",
-        "robmorgan/phinx": "^0.12.10"
+        "phalcon/devtools": "dev-master",
+        "robmorgan/phinx": "^0.12"
     },
     "license": "proprietary",
     "authors": [
